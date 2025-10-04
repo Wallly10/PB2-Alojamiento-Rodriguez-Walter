@@ -1,10 +1,10 @@
-package ar.unlam.edu.ar.parcial1;
+package ar.unlam.edu.ar.dominio;
 
-public class Casa extends AlojamientoBase {
+public class Habitacion extends AlojamientoBase {
 
-	private static final Double PRECIO_POR_NOCHE = 250.0;
+	private static final Double PRECIO_POR_NOCHE = 125.0;
 
-	public Casa(Integer id, String nombre, Integer capacidad) {
+	public Habitacion(Integer id, String nombre, Integer capacidad) {
 		super(id, nombre, capacidad);
 	}
 

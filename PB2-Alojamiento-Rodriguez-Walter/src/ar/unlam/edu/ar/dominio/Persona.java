@@ -1,4 +1,4 @@
-package ar.unlam.edu.ar.parcial1;
+package ar.unlam.edu.ar.dominio;
 
 import java.util.Objects;
 
@@ -16,19 +16,19 @@ public class Persona {
 		this.esFrecuente = esFrecuente;
 	}
 
-	protected Integer getDni() {
+	public Integer getDni() {
 		return dni;
 	}
 
-	protected String getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 
-	protected Boolean esFrecuente() {
+	public Boolean esFrecuente() {
 		return esFrecuente;
 	}
 
-	protected String getApellido() { // solo los del paquete pueden acceder y las sub clases
+	public String getApellido() { // solo los del paquete pueden acceder y las sub clases
 		return apellido;
 	}
 

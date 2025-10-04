@@ -1,4 +1,4 @@
-package ar.unlam.edu.ar.parcial1;
+package ar.unlam.edu.ar.dominio;
 
 import java.util.ArrayList;
 import java.util.List;

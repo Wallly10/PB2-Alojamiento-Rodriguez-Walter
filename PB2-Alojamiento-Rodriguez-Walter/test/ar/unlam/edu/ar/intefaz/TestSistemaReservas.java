@@ -1,4 +1,4 @@
-package ar.unlam.edu.ar.parcial1;
+package ar.unlam.edu.ar.intefaz;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,6 +7,11 @@ import static org.junit.Assert.assertTrue;
 //import java.util.Scanner;
 
 import org.junit.Test;
+
+import ar.unlam.edu.ar.dominio.Alojamiento;
+import ar.unlam.edu.ar.dominio.Casa;
+import ar.unlam.edu.ar.dominio.Habitacion;
+import ar.unlam.edu.ar.dominio.Persona;
 
 public class TestSistemaReservas {
 //	private static Scanner teclado = new Scanner(System.in);
